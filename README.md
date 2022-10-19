@@ -145,7 +145,7 @@ Next TF and IDF were calculated for each word by language, and appended it to th
 
 In order to reproduce the project follow the steps below:
 
-  - Clone or download the entire repo and run the files prefixed with aquire, prepare, and explore. 
+  - Clone or download the entire repo and run the files prefixed with aquire, prepare,explore and modeling (all files in repo). 
   - Read the comments in the code as there are sections that need to be uncommented once to generate files.
   - Generate a personal access token at https://github.com/settings/tokens 
   - Add your own env.py file to the directory containing your own 'github_token and 'github_username
