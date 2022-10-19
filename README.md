@@ -77,8 +77,11 @@ Data is acquired from the Github website using a personal access token to scrape
 
 ## <a name="explore"></a>Data Exploration:
 
+### Hypothesis
+The sets of words corresponding to C, Python and Java will have independent values.
+
 ### Unique Words
-The first step was to determine unique words in our corpus.  There was a total of 2383 unique "words" in the union of every language.  The total number of unique "words" in the intersection of every language was 1119.  When separated by language there were 675 words that were unique to C, while there were no words unique to Python or C.
+The first step was to determine unique words in our corpus.  There was a total of 2383 unique "words" in the union of every language.  The total number of unique "words" in the intersection of every language was 1119.  When separated by language there were 675 words that were unique to C, while there were no words unique to Python or C. Therefore we find that our hypothesis is only true for C.
 
 ### TF/IDF
 Next TF and IDF were calculated for each word by language, and appended it to the dataframe.  We were able to explore this proportion graphically via chart
