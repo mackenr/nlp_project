@@ -3,7 +3,7 @@
 
 by: Richard Macken & Dan Churchill
 
-Slide presentation available [Here](https://www.canva.com/design/DAFPZgy0ed8/-WPkFCgwesKpECyPmPlcMQ/view?utm_content=DAFPZgy0ed8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+Slide presentation available [Here](https://www.canva.com/design/DAFPZgy0ed8/zMVq3tYoLPYH2Pt_AWac2Q/view?utm_content=DA[…]campaign=designshare&utm_medium=link&utm_source=recording_view)
 
 ***
 [[Project Description](#project_description)]
