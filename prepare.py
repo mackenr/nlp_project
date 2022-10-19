@@ -20,7 +20,11 @@ from nltk.corpus import stopwords
 from copy import deepcopy
 
 
-
+# # Note:   Be aware the following two functions need to have a section commented out after the first run details are provided within each function  
+# # def lemmatizor(text,regexfilter=r'[^a-z0-9\'\s]'):
+# # def stemmed(text,regexfilter=r'[^a-z0-9\'\s]'):
+# #
+# #
 
 
 
@@ -114,13 +118,17 @@ def tokenizer(text,regexfilter=r'[^a-z0-9\'\s]'):
 
     
     
-    
-    
+ 
 
 
 def stemmed(text,regexfilter=r'[^a-z0-9\'\s]'):
     '''    
-    Takes text, tokenizes it, stems it
+      Takes text, tokenizes it, stems it
+      stemfiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True),  stemmedlist.split()))
+      needs to be commented out after the first run (up to modeling)
+      # stemfiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True and (x in  total)), stemmedlist.split()))
+      needs to be un commented commented
+    
     
     
     
@@ -138,7 +146,9 @@ def stemmed(text,regexfilter=r'[^a-z0-9\'\s]'):
     # since the average word lenght in English is 4.7 characters we will apply a conservative estimate and drop any word that is larger than 8 characters as it is likely not a word
     # we also recursivley took the set of all words generated then compared that to nltk.corpus.words.words() and used that list as filter this is where total comes from
 
-    stemfiltered=list(filter(lambda x:(len(x)>1 and len(x)<9 and x.isalpha()==True and (x in  total)), stemmedlist.split()))
+    # stemfiltered=list(filter(lambda x:(len(x)>1 and len(x)<9 and x.isalpha()==True and (x in  total)), stemmedlist.split()))
+
+    stemfiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True),  stemmedlist.split()))
     stemfiltered=' '.join(stemfiltered)
  
     stemfiltered=basic_clean(stemfiltered,regexfilter=regexfilter)
@@ -152,6 +162,10 @@ def lemmatizor(text,regexfilter=r'[^a-z0-9\'\s]'):
     '''    
     
       Takes text, tokenizes it, lemmatizes it
+      lemmafiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True),  lemmatized.split()))
+      needs to be commented out after the first run (up to modeling)
+      # lemmafiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True and (x in  total)), lemmatized.split()))
+      needs to be un commented commented
     
     
     
@@ -169,7 +183,10 @@ def lemmatizor(text,regexfilter=r'[^a-z0-9\'\s]'):
     # since the average word lenght in English is 4.7 characters we will apply a conservative estimate and drop any word that is larger than 8 characters as it is likely not a word
     # we also recursivley took the set of all words generated then compared that to nltk.corpus.words.words() and used that list as filter this is where total comes from
 
-    lemmafiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True and (x in  total)), lemmatized.split()))
+    # lemmafiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True and (x in  total)), lemmatized.split()))
+
+    lemmafiltered=list(filter(lambda x: (len(x)>1 and len(x)<9 and x.isalpha()==True),  lemmatized.split()))
+
     lemmafiltered=' '.join(lemmafiltered)
   
     lemmafiltered=basic_clean(lemmafiltered,regexfilter=regexfilter)
