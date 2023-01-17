@@ -5,18 +5,19 @@ import nltk
 
 
 from nltk.corpus import words
-
+from wordcloud import WordCloud,ImageColorGenerator
+from matplotlib_venn import venn3, venn3_circles
 from matplotlib_venn_wordcloud import venn3_wordcloud
 
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from wordcloud import WordCloud,ImageColorGenerator
+
 
 
 from matplotlib import pyplot as plt
 import numpy as np
-from matplotlib_venn import venn3, venn3_circles
+
 def wordset(df):
     dflist=list(df['stemmed'])
     dflist=' '.join(dflist)
