@@ -26,7 +26,7 @@
   <br></br>
   [`  Data Acquire and Prep  `](#wrangle)   &emsp;|&emsp;
   [`  Data Exploration   `](#explore)   &emsp;|&emsp;
-  [`  Modeling   `](#model)   &emsp;|&emsp;
+  [`  Modeling   `](#model)  
   <br></br>
   [`  Conclusion   `](#conclusion)    &emsp;|&emsp;
   [`  Steps to Reproduce   `](#reproduce) 
