@@ -45,7 +45,7 @@
 
 
 
-  <a align="center" text="⚓" href=#top > 
+  <a align="center" ⚓ href=#top > 
 
   
 
@@ -59,11 +59,11 @@
   - Train multiple classification models and evaluate on train dataset
   - Choose the model with that performs the best and evaluate that single model on the test dataset
   
-  <center> 
+
 
   [`⚓`](#top) 
   
-  </center>
+ 
 
 ***
 
