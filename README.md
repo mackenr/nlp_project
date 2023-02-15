@@ -46,7 +46,7 @@
 
 
 
-  <a text-align: center href='#top'>`⚓`</a>
+  <a style="text-align: center; href='#top'>`⚓`</a>
 
   
 
