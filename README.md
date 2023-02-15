@@ -45,7 +45,7 @@
 
 
 
-  <a align="center" ⚓ href=#top > 
+  <a ⚓ href=#top > 
 
   
 
