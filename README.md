@@ -71,7 +71,7 @@
 <blockquote> 
 <br>
      
- | Target Attribute | Definition | Data Type |
+  | Target Attribute | Definition | Data Type |
   | ----- | ----- | ----- |
   | language | the primary programming language of the repository | string |
 
@@ -100,11 +100,10 @@
 
   ***
 ## <a name="wrangle"></a>Data Acquisition and Preparation
-  Data is acquired from the Github website using a personal access token to scrape their website via their API.  The modular functions within the acquire.py file obtain the userdata, clean it to remove encoded characters and save that to another column, stem the words to remove suffixes and save it to it's own column, and then creates one last column of lemmatized data.  Prior to exploration the data is split into 60% train, 20% validate, and 20% test before exploration.
+Data is acquired from the Github website using a personal access token to scrape their website via their API.  The modular functions within the acquire.py file obtain the userdata, clean it to remove encoded characters and save that to another column, stem the words to remove suffixes and save it to it's own column, and then creates one last column of lemmatized data.<br></br>Prior to exploration, the data is split into 60% train, 20% validate, and 20% test.
 
 
-
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
 
 
