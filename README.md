@@ -22,10 +22,12 @@
 
   [`  Project Description  `](#project_description)   &emsp;|&emsp;
   [`  Project Planning   `](#planning)    &emsp;|&emsp;
-  [`  Data Dictionary  `](#dictionary)    &emsp;|&emsp;
+  [`  Data Dictionary  `](#dictionary)
+  <br></br>
   [`  Data Acquire and Prep  `](#wrangle)   &emsp;|&emsp;
   [`  Data Exploration   `](#explore)   &emsp;|&emsp;
   [`  Modeling   `](#model)   &emsp;|&emsp;
+  <br></br>
   [`  Conclusion   `](#conclusion)    &emsp;|&emsp;
   [`  Steps to Reproduce   `](#reproduce) 
   
