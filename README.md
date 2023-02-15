@@ -4,7 +4,6 @@
  
 
 
-<center>
 
 # **PREDICTING REPO PROGRAMMING LANGUAGE BY THE README**<a name="top"></a>
 
@@ -45,8 +44,7 @@
 
 
 
-
-  <a style="text-align: center; href='#top'>`⚓`</a>
+<div align="center"><a href='#top'><code>⚓</code></a></div>
 
   
 
@@ -62,7 +60,7 @@
   
 
 
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
  
 
@@ -96,8 +94,7 @@
 
   </blockquote>
  
-
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
 
 
@@ -124,8 +121,7 @@
   - We were able to identify frequency of terms in the corpus overall, and as a proportion by language, and identify the most common terms visually using wordclouds
 
 
-
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
 
 
@@ -148,7 +144,7 @@
 
 
 
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
 
 ***
@@ -161,8 +157,7 @@
   - Given more time we would have further explored N-grams to possibly improve performance
 
 
-
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
 
   
@@ -177,6 +172,5 @@
 
 
 
-  [`⚓`](#top) 
-  
+<div align="center"><a href='#top'><code>⚓</code></a></div>
 
