@@ -20,13 +20,13 @@
 
 
 
-  [`  Project Description  `](#project_description)&emsp;|&emsp;
-  [`  Project Planning   `](#planning)&emsp;|&emsp;
+  [`  Project Description  `](#project_description)
+  [`  Project Planning   `](#planning)
   [`  Data Dictionary  `](#dictionary)<br></br>
-  [`  Data Acquire and Prep  `](#wrangle)&emsp;|&emsp;
-  [`  Data Exploration   `](#explore)&emsp;|&emsp;
+  [`  Data Acquire and Prep  `](#wrangle)
+  [`  Data Exploration   `](#explore)
   [`  Modeling   `](#model)<br></br>
-  [`  Conclusion   `](#conclusion)&emsp;|&emsp;
+  [`  Conclusion   `](#conclusion)
   [`  Steps to Reproduce   `](#reproduce) 
   
  
