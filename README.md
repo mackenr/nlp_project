@@ -44,9 +44,9 @@
   > Goal 3: Create three models to predict language of a repo, and select the best model to use against test data
 
 
-<div align="center">
-  <a text="⚓" href=#top > 
-</div>
+
+  <a align="center" text="⚓" href=#top > 
+
   
 
   
