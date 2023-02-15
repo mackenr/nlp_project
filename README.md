@@ -33,7 +33,7 @@
   <hr style="border-top: 7px ridge #ffffff;border-bottom: 4px hidden ;"></hr>
 
 
-</center>
+
  
 ## <a name="project_description"></a>Project Description and Goals:
  
@@ -43,11 +43,12 @@
   > Goal 2: Prepare and Explore the natural language data that we have acquired<br>
   > Goal 3: Create three models to predict language of a repo, and select the best model to use against test data
 
-  <center> 
 
+<div align="center">
   [`⚓`](#top) 
+</div>
   
-  </center>
+
   
   ***
 ## <a name="planning"></a>Project Planning: 
