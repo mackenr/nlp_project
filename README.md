@@ -11,25 +11,22 @@
   [`Video Presentation`](https://www.canva.com/design/DAFPZgy0ed8/zMVq3tYoLPYH2Pt_AWac2Q/view?utm_content=DA[…]campaign=designshare&utm_medium=link&utm_source=recording_view)
       
 ### *Richard Macken & Dan Churchill*
-![](nlp.jpg)
-
-
-  
- 
-  
+![](nlp.jpg)  
 
 
 
   [`  Project Description  `](#project_description)
   [`  Project Planning   `](#planning)
-  [`  Data Dictionary  `](#dictionary)<br></br>
+  [`  Data Dictionary  `](#dictionary)
+  <br></br>
   [`  Data Acquire and Prep  `](#wrangle)
   [`  Data Exploration   `](#explore)
-  [`  Modeling   `](#model)<br></br>
+  [`  Modeling   `](#model)
+  <br></br>
   [`  Conclusion   `](#conclusion)
   [`  Steps to Reproduce   `](#reproduce) 
   
- 
+ </div>
 
 
 
@@ -97,21 +94,19 @@
 
   </blockquote>
  
-  <center> 
 
   [`⚓`](#top) 
   
-  </center>
+
 
   ***
 ## <a name="wrangle"></a>Data Acquisition and Preparation
   Data is acquired from the Github website using a personal access token to scrape their website via their API.  The modular functions within the acquire.py file obtain the userdata, clean it to remove encoded characters and save that to another column, stem the words to remove suffixes and save it to it's own column, and then creates one last column of lemmatized data.  Prior to exploration the data is split into 60% train, 20% validate, and 20% test before exploration.
 
-  <center> 
+
 
   [`⚓`](#top) 
   
-  </center>
 
 
 ***
@@ -126,11 +121,11 @@
 ### Takaways Exploration:
   - We were able to identify frequency of terms in the corpus overall, and as a proportion by language, and identify the most common terms visually using wordclouds
 
-  <center> 
+
 
   [`⚓`](#top) 
   
-  </center>
+
 
 ***
 ## <a name="model"></a>Modeling:
@@ -149,11 +144,10 @@
   | ---- | ---- | 
   | K-Nearest Neighbors | 75% |
 
-  <center> 
+
 
   [`⚓`](#top) 
   
-  </center>
 
 ***
 ## <a name="conclusion"></a>Conclusion and Next Steps:
@@ -164,11 +158,11 @@
   - "fixed" was the most common word for C+
   - Given more time we would have further explored N-grams to possibly improve performance
 
-  <center> 
+
 
   [`⚓`](#top) 
   
-  </center>
+
   
 *** 
 ## <a name="reproduce"></a>Steps to Reproduce:
@@ -179,8 +173,8 @@
   - Add your own env.py file to the directory containing your own 'github_token and 'github_username
   - Run the final_repot.ipynb notebook
 
-  <center> 
+
 
   [`⚓`](#top) 
   
-  </center>
+
