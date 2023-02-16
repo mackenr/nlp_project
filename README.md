@@ -1,41 +1,38 @@
-
-  <hr style="border-top: 7px ridge #ffffff;border-bottom: 4px hidden ;"></hr>
+<div align="center">
+  
+<hr style="border-top: 7px ridge #ffffff;border-bottom: 4px hidden ;"></hr>
  
 
 
-  <center>
 
 # **PREDICTING REPO PROGRAMMING LANGUAGE BY THE README**<a name="top"></a>
 
   [`Video Presentation`](https://www.canva.com/design/DAFPZgy0ed8/zMVq3tYoLPYH2Pt_AWac2Q/view?utm_content=DA[…]campaign=designshare&utm_medium=link&utm_source=recording_view)
       
 ### *Richard Macken & Dan Churchill*
-![](nlp.jpg)
-
-
-  
- 
-  
+![](nlp.jpg)  
 
 
 
-  [`  Project Description  `](#project_description)   &emsp;|&emsp;
-  [`  Project Planning   `](#planning)    &emsp;|&emsp;
-  [`  Data Dictionary  `](#dictionary)    &emsp;|&emsp;
-  [`  Data Acquire and Prep  `](#wrangle)   &emsp;|&emsp;
-  [`  Data Exploration   `](#explore)   &emsp;|&emsp;
-  [`  Modeling   `](#model)   &emsp;|&emsp;
-  [`  Conclusion   `](#conclusion)    &emsp;|&emsp;
+  [`  Project Description  `](#project_description)
+  [`  Project Planning   `](#planning)
+  [`  Data Dictionary  `](#dictionary)
+  <br></br>
+  [`  Data Acquire and Prep  `](#wrangle)
+  [`  Data Exploration   `](#explore)
+  [`  Modeling   `](#model)
+  <br></br>
+  [`  Conclusion   `](#conclusion)
   [`  Steps to Reproduce   `](#reproduce) 
   
- 
+ </div>
 
 
 
   <hr style="border-top: 7px ridge #ffffff;border-bottom: 4px hidden ;"></hr>
 
 
-</center>
+
  
 ## <a name="project_description"></a>Project Description and Goals:
  
@@ -45,11 +42,12 @@
   > Goal 2: Prepare and Explore the natural language data that we have acquired<br>
   > Goal 3: Create three models to predict language of a repo, and select the best model to use against test data
 
-  <center> 
 
-  [`⚓`](#top) 
+
+<div align="center"><a href='#top'><code>⚓</code></a></div>
+
   
-  </center>
+
   
   ***
 ## <a name="planning"></a>Project Planning: 
@@ -60,11 +58,11 @@
   - Train multiple classification models and evaluate on train dataset
   - Choose the model with that performs the best and evaluate that single model on the test dataset
   
-  <center> 
 
-  [`⚓`](#top) 
+
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
-  </center>
+ 
 
 ***
 
@@ -73,7 +71,7 @@
 <blockquote> 
 <br>
      
- | Target Attribute | Definition | Data Type |
+  | Target Attribute | Definition | Data Type |
   | ----- | ----- | ----- |
   | language | the primary programming language of the repository | string |
 
@@ -96,21 +94,17 @@
 
   </blockquote>
  
-  <center> 
-
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
-  </center>
+
 
   ***
 ## <a name="wrangle"></a>Data Acquisition and Preparation
-  Data is acquired from the Github website using a personal access token to scrape their website via their API.  The modular functions within the acquire.py file obtain the userdata, clean it to remove encoded characters and save that to another column, stem the words to remove suffixes and save it to it's own column, and then creates one last column of lemmatized data.  Prior to exploration the data is split into 60% train, 20% validate, and 20% test before exploration.
+Data is acquired from the Github website using a personal access token to scrape their website via their API.  The modular functions within the acquire.py file obtain the userdata, clean it to remove encoded characters and save that to another column, stem the words to remove suffixes and save it to it's own column, and then creates one last column of lemmatized data.<br></br>Prior to exploration, the data is split into 60% train, 20% validate, and 20% test.
 
-  <center> 
 
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
-  </center>
 
 
 ***
@@ -125,11 +119,10 @@
 ### Takaways Exploration:
   - We were able to identify frequency of terms in the corpus overall, and as a proportion by language, and identify the most common terms visually using wordclouds
 
-  <center> 
 
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
-  </center>
+
 
 ***
 ## <a name="model"></a>Modeling:
@@ -148,11 +141,10 @@
   | ---- | ---- | 
   | K-Nearest Neighbors | 75% |
 
-  <center> 
 
-  [`⚓`](#top) 
+
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
-  </center>
 
 ***
 ## <a name="conclusion"></a>Conclusion and Next Steps:
@@ -163,11 +155,10 @@
   - "fixed" was the most common word for C+
   - Given more time we would have further explored N-grams to possibly improve performance
 
-  <center> 
 
-  [`⚓`](#top) 
+<div align="center"><a href='#top'><code>⚓</code></a></div>
   
-  </center>
+
   
 *** 
 ## <a name="reproduce"></a>Steps to Reproduce:
@@ -178,8 +169,7 @@
   - Add your own env.py file to the directory containing your own 'github_token and 'github_username
   - Run the final_repot.ipynb notebook
 
-  <center> 
 
-  [`⚓`](#top) 
-  
-  </center>
+
+<div align="center"><a href='#top'><code>⚓</code></a></div>
+
